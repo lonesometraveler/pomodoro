@@ -56,7 +56,7 @@ Hit button B and start the pre-defined timer saved in the flash (or a default ti
 
 #### Program a new timer
 
-Use an app like [nRF Connect app](https://www.nordicsemi.com/Products/Development-tools/nrf-connect-for-mobile) and connect to the device that advertises its BLE name as "Pomodoro!". When a connection is established, look for a characteristic whose UUID is `11111111-1111-1111-1111-111111111111`. Choose the "Write" option and send a UTF8 string to the device. The valid format is "work_timer,rest_timer". Express work_timer and rest_timer in minutes.
+Use an app like [nRF Connect app](https://www.nordicsemi.com/Products/Development-tools/nrf-connect-for-mobile) and connect to the device that advertises its BLE name as "Pomodoro!". When a connection is established, look for a characteristic whose UUID is `11111111-1111-1111-1111-111111111122`. Choose the "Write" option and send a UTF8 string to the device. The valid format is "work_timer,rest_timer". Express work_timer and rest_timer in minutes.
 
 Examples:
 
